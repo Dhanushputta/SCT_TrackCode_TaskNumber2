@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch-app {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.timer-display {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button.start {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button.start:hover {
+  background-color: #45a049;
+}
+
+.button.pause {
+  background-color: #ff9800;
+  color: white;
+}
+
+.button.pause:hover {
+  background-color: #fb8c00;
+}
+
+.button.reset {
+  background-color: #f44336;
+  color: white;
+}
+
+.button.reset:hover {
+  background-color: #e53935;
+}
+
+.button.lap {
+  background-color: #2196f3;
+  color: white;
+}
+
+.button.lap:hover {
+  background-color: #1e88e5;
+}
+
+.laps {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.laps h2 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.laps li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
